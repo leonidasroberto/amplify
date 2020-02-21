@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Amplify, { Auth } from 'aws-amplify';
-import { Link } from 'react-router-dom';
 import "rbx/index.css";
 import { Button, Navbar } from 'rbx';
 
