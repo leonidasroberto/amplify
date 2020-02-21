@@ -143,7 +143,7 @@ handleChange(d){
       </Navbar.Menu>
     </Navbar>       
             <div>
-              <Link to={{pathname:'/test'}}>TESTE</Link>
+              
             <h2>Cadastro!</h2>
         
             Nome: <input class="form-control" type="text" name="coUsername" onChange={d =>this.handleChange(d)}/><br/>

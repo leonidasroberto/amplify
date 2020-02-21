@@ -18,25 +18,7 @@ const Cap = ({ match }) => (
 function App() {
 
   return (
-    <main>
-    <Provider store={store}>
-
-    <Router>
-    <Switch>
-      <Route exact path="/" component={Beta}/>
-      <Route exact path="/test" component={Test}/>
-      <Route path="/parse">
-      <Route path="/:doo/:doom/:dom"  component={Pegavar}/>
-      </Route>    
-      <Route path="/template" component={Template}></Route>
-      <Route path="/wath" component={TestStorage}/>
-    </Switch>
-    </Router>
-
-    </Provider>
-    </main>
-
-    ///<Beta></Beta>
+    <Beta></Beta>
 
   );
 }
